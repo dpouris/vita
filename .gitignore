@@ -1,0 +1,6 @@
+/target
+.idea/
+.vscode/
+
+# Legacy
+*_legacy.rs

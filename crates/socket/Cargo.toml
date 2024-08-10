@@ -1,0 +1,10 @@
+[package]
+authors = ["dpouris <jimpouris0@gmail.com>"]
+edition = "2021"
+name = "vita-socket"
+version = "0.1.0"
+rust-version = "1.79"
+
+
+[dependencies]
+ctrlc = "3.4.4"

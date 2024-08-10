@@ -1,0 +1,19 @@
+[package]
+name = "vita"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "vita-server"
+path = "crates/core/server/src/main.rs"
+
+[[bin]]
+name = "vita-client"
+path = "crates/core/client/src/main.rs"
+
+[dependencies]
+vita-socket = { version = "*", path = "crates/socket" }
+vita-scheduler = { version = "*", path = "crates/scheduler" }
+
+[workspace]
+members = ["crates/daemon", "crates/scheduler", "crates/socket"]

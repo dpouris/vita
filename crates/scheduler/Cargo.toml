@@ -1,0 +1,22 @@
+[package]
+authors = ["dpouris <jimpouris0@gmail.com>"]
+edition = "2021"
+name = "vita-scheduler"
+version = "0.1.0"
+rust-version = "1.79"
+
+[lib]
+path = "./src/lib.rs"
+name = "scheduler"
+
+[[bench]]
+bench = true
+name = "thread-executor"
+path = "tests/thread_executor.rs"
+
+[dev-dependencies]
+chrono = "0.4.38"
+rand = "0.9.0-alpha.2"
+tokio = { version = "1.39.2", features = ["rt", "macros", "process"] }
+tokio-macros = "2.3.0"
+mio = "1.0.1"
