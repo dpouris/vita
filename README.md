@@ -8,7 +8,7 @@ A workflow scheduler for automating crucial or every-day tasks
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Crates](#prerequisites)
+- [Crates](#crates)
 - [Installation](#installation)
     - [Build & Run](#build-and-run-binaries)
     - [Run with Cargo](#alternatively-you-can-run-directly-with-cargo)
